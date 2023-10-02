@@ -1,23 +1,18 @@
+import { Helmet } from "react-helmet";
 import logo from './logo.svg';
-import './App.css';
+import About from "./components/About.js";
+import Landing from "./components/Landing.js";
+import Scripts from "./Scripts/Scripts.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-black text-gray-400 body-font">
+      <Helmet>
+        <link href="/styles.css" rel="stylesheet" />
+      </Helmet>
+      <Landing />
+      <About />
+      <Scripts />
     </div>
   );
 }
