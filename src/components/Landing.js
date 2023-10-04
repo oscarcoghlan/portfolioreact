@@ -4,15 +4,15 @@ function Landing() {
       <div className="bg-slate-950 w-full">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-screen bg-slate-950">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 id="tickerheading" className="title-font sm:text-5xl text-4xl mb-4 font-medium text-white font-inconsolata whitespace-nowrap">
-              
+            <h1 className="typewriter title-font sm:text-5xl text-4xl mb-4 font-medium text-white font-inconsolata whitespace-nowrap">
+              Hi, Im oscar.
             </h1> 
               <br className="hidden lg:inline-block" />
             <h2 className="title-font sm:text-2xl text-xl mb-4 font-medium text-white">
-            I love software and web development.
+              Welcome to my website :)
             </h2>
             <p className="mb-8 leading-relaxed">
-            I'm a dedicated software engineering student focused on delivering innovative solutions. On this website, I share my skills, projects, and experiences. 
+            I'm a dedicated software engineering student focused on creating cool things - and learning every step of the way. On this website, I share my skills, projects, and experiences. 
             </p>
             <div className="flex justify-center">
               <a

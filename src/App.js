@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import logo from './logo.svg';
 import About from "./components/About.js";
 import Landing from "./components/Landing.js";
-import Scripts from "./Scripts/Scripts.js";
+import Loadscripts from "./Scripts/Loadscripts.js";
 import Project from "./components/Project";
 
 function App() {
@@ -10,8 +10,10 @@ function App() {
     <div className="App bg-black text-gray-200">
       <Helmet>
         <link href="/styles.css" rel="stylesheet" />
+        <title>Oscar Coghlan - Portfolio</title>
       </Helmet>
       <Landing />
+      <About />
       <Project 
          heading={"About me"}
          content={`I'm Oscar, a dedicated software engineering student focused on delivering innovative solutions. On this portfolio website, I share my skills, projects, and experiences.\n
@@ -27,7 +29,7 @@ function App() {
          bgcolor={"bg-slate-700"}
          align={'left'}
       />
-      <Scripts />
+      <Loadscripts />
     </div>
   );
 }
